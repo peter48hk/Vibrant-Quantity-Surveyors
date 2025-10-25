@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | MeasureMaster Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#7c3aed',
+                        darkbg: '#0f172a',
+                        darkcard: '#1e293b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 dark:bg-darkbg transition-colors duration-300 min-h-screen flex flex-col">
+    <custom-navbar></custom-navbar>
+    
+    <main class="flex-grow py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <!-- Services Hero -->
+            <section class="mb-16 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 dark:text-white">Professional Services</h1>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">Comprehensive quantity surveying services tailored to your project needs.</p>
+            </section>
+
+            <!-- Services Grid -->
+            <section class="mb-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Service 1 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mr-4">
+                                    <i data-feather="dollar-sign" class="text-primary dark:text-secondary w-6 h-6"></i>
+                                </div>
+                                <h2 class="text-2xl font-bold dark:text-white">Cost Planning</h2>
+                            </div>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4">From initial feasibility studies to detailed cost plans, I provide accurate budgeting at every project stage.</p>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Conceptual cost estimates</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Elemental cost plans</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Cost benchmarking</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Design option costing</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="inline-flex items-center text-primary dark:text-secondary font-bold">
+                                Get Started <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mr-4">
+                                    <i data-feather="file-text" class="text-primary dark:text-secondary w-6 h-6"></i>
+                                </div>
+                                <h2 class="text-2xl font-bold dark:text-white">BOQ Preparation</h2>
+                            </div>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4">Detailed Bills of Quantities that form the foundation for accurate tendering and contract administration.</p>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Standard method of measurement</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Trade-specific breakdowns</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Preliminaries pricing</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">BIM-integrated takeoffs</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="inline-flex items-center text-primary dark:text-secondary font-bold">
+                                Get Started <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mr-4">
+                                    <i data-feather="trending-up" class="text-primary dark:text-secondary w-6 h-6"></i>
+                                </div>
+                                <h2 class="text-2xl font-bold dark:text-white">Cost Management</h2>
+                            </div>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4">Comprehensive cost control throughout the construction process to keep your project on budget.</p>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Monthly cost reporting</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Variation analysis</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Cash flow forecasting</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Final account preparation</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="inline-flex items-center text-primary dark:text-secondary font-bold">
+                                Get Started <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mr-4">
+                                    <i data-feather="cpu" class="text-primary dark:text-secondary w-6 h-6"></i>
+                                </div>
+                                <h2 class="text-2xl font-bold dark:text-white">Digital Takeoffs</h2>
+                            </div>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4">Leveraging the latest digital tools for faster, more accurate quantity surveying services.</p>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">2D/3D digital measurement</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">BIM integration</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">CostX & PlanSwift expertise</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Automated reporting</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="inline-flex items-center text-primary dark:text-secondary font-bold">
+                                Get Started <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Process Section -->
+            <section class="mb-16 bg-gray-100 dark:bg-darkcard rounded-lg p-8">
+                <h2 class="text-3xl font-bold mb-8 text-center dark:text-white">My Process</h2>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    <!-- Step 1 -->
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary/10 dark:bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-primary dark:text-secondary text-xl font-bold">1</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2 dark:text-white">Initial Consultation</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Understanding your project requirements and objectives.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary/10 dark:bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-primary dark:text-secondary text-xl font-bold">2</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2 dark:text-white">Document Review</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Analyzing drawings and specifications for accurate measurement.</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary/10 dark:bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-primary dark:text-secondary text-xl font-bold">3</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2 dark:text-white">Quantity Takeoff</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Precise measurement using digital tools and manual verification.</p>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary/10 dark:bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-primary dark:text-secondary text-xl font-bold">4</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2 dark:text-white">Delivery & Support</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Providing deliverables with ongoing support as needed.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pricing Section -->
+            <section>
+                <h2 class="text-3xl font-bold mb-8 text-center dark:text-white">Service Packages</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Package 1 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                        <div class="bg-gray-100 dark:bg-gray-700 p-6 text-center">
+                            <h3 class="text-xl font-bold dark:text-white">Basic</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mt-2">For small projects & startups</p>
+                        </div>
+                        <div class="p-6">
+                            <div class="text-center mb-6">
+                                <span class="text-4xl font-bold dark:text-white">$1,500</span>
+                                <span class="text-gray-600 dark:text-gray-300">/project</span>
+                            </div>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Conceptual cost estimate</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Elemental cost plan</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="x" class="text-gray-400 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-400">Detailed BOQ</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="x" class="text-gray-400 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-400">Cost management</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="block w-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-primary dark:text-secondary font-bold py-3 px-4 rounded-lg text-center transition">
+                                Select Plan
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Package 2 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden transform scale-[1.03] relative">
+                        <div class="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
+                            Popular
+                        </div>
+                        <div class="bg-primary text-white p-6 text-center">
+                            <h3 class="text-xl font-bold">Standard</h3>
+                            <p class="text-primary-100 mt-2">For medium projects & growing businesses</p>
+                        </div>
+                        <div class="p-6">
+                            <div class="text-center mb-6">
+                                <span class="text-4xl font-bold dark:text-white">$3,500</span>
+                                <span class="text-gray-600 dark:text-gray-300">/project</span>
+                            </div>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Detailed cost plan</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Trade-specific BOQ</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Tender documentation</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="x" class="text-gray-400 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-400">Monthly cost reports</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="block w-full bg-primary hover:bg-primary/90 text-white font-bold py-3 px-4 rounded-lg text-center transition">
+                                Select Plan
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Package 3 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                        <div class="bg-gray-100 dark:bg-gray-700 p-6 text-center">
+                            <h3 class="text-xl font-bold dark:text-white">Premium</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mt-2">For large projects & enterprise</p>
+                        </div>
+                        <div class="p-6">
+                            <div class="text-center mb-6">
+                                <span class="text-4xl font-bold dark:text-white">$6,000+</span>
+                                <span class="text-gray-600 dark:text-gray-300">/project</span>
+                            </div>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Full BOQ with preliminaries</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Monthly cost reporting</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Value engineering</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="text-green-500 w-4 h-4 mr-2"></i>
+                                    <span class="text-gray-600 dark:text-gray-300">Final account preparation</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="block w-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-primary dark:text-secondary font-bold py-3 px-4 rounded-lg text-center transition">
+                                Select Plan
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
